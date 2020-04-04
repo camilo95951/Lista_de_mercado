@@ -1,0 +1,33 @@
+/* centrar los titulos  */
+.cto{
+    text-align: center;
+    font-size: 500%;
+}
+/*  background-color: blue; color de los cuadrados color intermedio */ 
+/*  display: grid mas divisiones*/
+/*  numero de columnas */ 
+.princ {
+    background-color: powderblue;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 10px;
+}
+/* .princ > div clase y elemento modificar */
+/*  border: 1px;
+    border-style: solid;
+    border-color: black; los bordes de color negro  */
+/*  margin-top: 5px; distacia de cuadrados */  
+/*  background-color: blue; color de los cuadrados */   
+.princ > div{
+    margin-top: 5px;
+    background-color: blue;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+/*  eventos de la pantalla*/
+@media only screen and (min-width: 600px){
+    body{
+        background-color: red;
+    }
+}
